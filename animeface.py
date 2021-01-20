@@ -19,8 +19,6 @@ sv = Service('动漫人物', visible= True, enable_on_default= True, bundle='动
 无说明
 '''.strip())
 
-image_path = '[your file path]' # coolq 文件路径
-
 def get_access_token():
     url = 'https://aip.baidubce.com/oauth/2.0/token'
     data = {
