@@ -2,10 +2,10 @@
 Baidu AnimeFace(人像动漫化) plugin for Hoshinobot
 
 # Requirement
-pip install PIL
-pip install base64
-pip install random
-pip install requests
+PIL
+base64
+random
+requests
 
 # Before Running
 1.Apply for your client_id and client_secert on Baidu_BCE website(https://ai.baidu.com/tech/imageprocess/selfie_anime).
