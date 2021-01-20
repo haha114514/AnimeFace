@@ -1,4 +1,4 @@
-# AnimeFace
+# AnimeFace/人像动漫化
 Baidu AnimeFace(人像动漫化) plugin for Hoshinobot
 
 # Requirement
