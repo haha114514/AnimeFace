@@ -13,8 +13,8 @@ import aiohttp
 from PIL import Image
 from hoshino.util import DailyNumberLimiter, FreqLimiter
 
-_nlt = DailyNumberLimiter(4)
-_flt = FreqLimiter(10)
+_nlt = DailyNumberLimiter(4)  #每日可用次数
+_flt = FreqLimiter(10) #每多少秒之后才能使用一次
 sv = Service('动漫人物', visible= True, enable_on_default= True, bundle='动漫人物', help_='''
 无说明
 '''.strip())
